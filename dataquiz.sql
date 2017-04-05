@@ -58,15 +58,15 @@ CREATE TABLE `question` (
 --
 
 INSERT INTO `question` (`id_question`, `question`, `answer`) VALUES
-(1, 'Jumlah rata-rata penduduk belum tamat SD di Jakarta Timur di tahun 2014?', 7107),
-(2, 'Jumlah penduduk belum lulus SD di Kecmatan Cilandak Jakarta Selatan di tahun 2014?', 3854),
-(3, 'Jumlah siswi SD di Jakarta Utara di tahun 2015?', 42),
-(4, 'Berapa banyak jumlah Sarjana II di Jakartadi tahun 2015?', 83026),
+(1, 'Jumlah rata-rata penduduk belum tamat SD di Jakarta Timur pada tahun 2014?', 7107),
+(2, 'Jumlah penduduk belum lulus SD di Kecmatan Cilandak, Jakarta Selatan di tahun 2014?', 3854),
+(3, 'Jumlah siswi SD di Jakarta Utara pada tahun 2015?', 42),
+(4, 'Berapa banyak jumlah Sarjana II di Jakarta pada tahun 2015?', 83026),
 (5, 'Berapa jumlah penduduk belum lulus SD di Kepulauan Seribu pada tahun 2014?', 5314),
-(6, 'Berapa jumlah kematian ibu akibat infeksi di tahun 2015?', 8),
+(6, 'Berapa jumlah kematian ibu akibat infeksi pada tahun 2015?', 8),
 (7, 'Berapa jumlah penolong persalinan di Jakarta pada tahun 2015?', 699),
-(8, 'Berapa jumlah perorok dewasa di kecamatan Cilandak Jakarta Selatan pada tahun 2016?', 4932),
-(9, 'Berapa jumlah bukan perokok di kecamatan Cilandak Jakarta selatan pada tahun 2016?', 9037),
+(8, 'Berapa jumlah perorok dewasa di kecamatan Cilandak, Jakarta Selatan pada tahun 2016?', 4932),
+(9, 'Berapa jumlah bukan perokok di kecamatan Cilandak, Jakarta selatan pada tahun 2016?', 9037),
 (10, 'Berapa jumlah siswa/I SMK di Jakarta selatan pada tahun 2015?', 48874),
 (11, 'Berapa jumlah total siswa/I di Jakarta pada tahun 2015?', 3325393),
 (12, 'Berapa jumlah kematian ibu pada tahun 2015?', 170),
@@ -75,7 +75,7 @@ INSERT INTO `question` (`id_question`, `question`, `answer`) VALUES
 (15, 'Di Kepulauan Seribu pada tahun 2015 miliki jumlah siswa SMK terendah,yaitu?', 86),
 (16, 'Berapa jumlah pelajar di Kepulauan Seribu pada tahun 2015?', 968),
 (17, 'Berapakah total pelajar SD di Jakarta barat pada tahun 2015?', 36964),
-(18, 'Berapakah jumlah terendah peroko di Pondok Labu pada bulan 7 tahun 2015?', 845);
+(18, 'Berapakah jumlah terendah perokok di Kecamatan Pondok Labu pada bulan 7 tahun 2015?', 845);
 
 -- --------------------------------------------------------
 
