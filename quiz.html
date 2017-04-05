@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title> QUIZ </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+	
+	<body>
+		<h1 align="center">Quiz  </h1>
+			<div class = "container">
+				{% if username %}
+					<p><b>Welcome {{username}}<b></p>
+				{% endif %}
+			</hr>
+			
+			{%for data in data%}
+				<h2>{{dataquiz.question}} </h2>
+			{% endfor %}
+			</hr>
+			
+			{% for b in range(5)%}
+				<br><br>
+			{% endfor %}
+			
+			<form method= "post">
+				<div class="col-xs-4" style="background-color:lightcyan;">
+					<input class="form-control" id="ex2" type="text" value="0">
+				</div>
+				
+				<div>
+					<button type="submit" class="btn btn-danger">Check</button>
+				</div>
+			</form>
+			
+			<a href="out"><button type="submit" class="btn btn-primary" name="out" value="out"><font color="white">Out</font> "&nbsp;"
+			<a href="result"> <button type="submit" class="btn btn-warning" name="result value="result>End The Quiz
+			
+		</div>
+	</body>
+	
+</html>
