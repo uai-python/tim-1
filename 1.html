@@ -1,0 +1,61 @@
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Page 1</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		</head>
+	<center>
+	<body><body style="background:skyblue">
+	
+		<br><br><br>
+		<div class="alert alert-success">
+		<strong>Isi data diri anda di bawah ini:</h1>
+		<br><br></br></br>
+		</div>
+		<p>Username:
+		<form method="POST" action="/daftar">
+				<div class="form-group"  >
+				<input type="text" name="username" placeholder="Tulis" 
+				required oninvalid="this.setCustomValidity('This can not be empty')" oninput="setCustomValidity('')">
+			</div>
+		</p>
+		
+		<div class="alert alert-success">
+		<p>Umur Anda:
+		<form method="POST" action="/daftar">
+			<div class="form-group">
+				<input type="text" name="age" 
+				required oninvalid="this.setCustomValidity('This can not be empty')" oninput="setCustomValidity('')">
+			</div>
+		</div>
+		</p>
+		<div class="alert alert-success">
+		<p>Jenis Kelamin:
+		<form action="/daftar" method="POST">
+		
+			<div class="form-group">
+				<select name="jeniskelamin" 
+				required oninvalid="this.setCustomValidity('This can not be empty')" oninput="setCustomValidity('')"> 
+				<option value="pilih">  Pilih <option value="laki">Laki-laki	<option value="Perempuan">Perempuan </select>
+			</div>
+		<div/>
+		</p>
+		<div class="alert alert-success">
+		<p>Kota/Kabupaten:
+		<form action="/daftar" method="POST">
+		
+			<div class="form-group">
+				<select name="kota" required oninvalid="this.setCustomValidity('This can not be empty')" oninput="setCustomValidity('')"> 
+				<option value="pilih">  Pilih <option value="jaksel">Jakarta Selatan	<option value="jaktim">Jakarta Timur
+				<option value="jakut">Jakarta Utara <option value="jakbar">Jakarta Barat <option value="pulauseribu">Kepulauan Seribu </select>
+			</div>
+		</div>
+		</p>
+			
+			<input class="btn btn-primary" type="submit" value="submit">
+		</form>
+	</body>
+	</center>
+</html>
